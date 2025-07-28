@@ -1,0 +1,42 @@
+name: slip39_dart
+description: A pure Dart implementation of SLIP39 (Shamir's Secret Sharing for Mnemonic Codes) for secure cryptocurrency and secret recovery with family sharing support.
+version: 1.0.0
+homepage: https://github.com/synabl/slip39_dart
+repository: https://github.com/synabl/slip39_dart
+issue_tracker: https://github.com/synabl/slip39_dart/issues
+documentation: https://pub.dev/documentation/slip39_dart/latest/
+
+topics:
+  - cryptography
+  - security
+  - shamir-secret-sharing
+  - slip39
+  - mnemonic
+  - cryptocurrency
+  - recovery
+  - family-sharing
+
+environment:
+  sdk: ^3.7.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Core dependencies for cryptographic operations
+  crypto: ^3.0.5
+  typed_data: ^1.3.2
+  convert: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  test: ^1.24.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # This is a pure Dart package, no platform-specific code needed
